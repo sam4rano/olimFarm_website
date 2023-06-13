@@ -105,7 +105,7 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .header{
-  color:var(--primary);
+  color:white;
 }
 .btn-cta {
   background-color:var(--primary);
@@ -3660,7 +3660,11 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  background-color: red;
+  
 }
+
+
 
 .nav-link {
   display: block;
@@ -3771,7 +3775,7 @@ textarea.form-control-lg {
 
 .navbar {
   --bs-navbar-padding-x: 0;
-  --bs-navbar-padding-y: 0.5rem;
+  --bs-navbar-padding-y: 10px;
   --bs-navbar-color: rgba(0, 0, 0, 0.55);
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
@@ -3796,6 +3800,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+  background-color: var(--primary) !important;
 }
 .navbar > .container,
 .navbar > .container-fluid,
